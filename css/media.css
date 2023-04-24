@@ -1,0 +1,504 @@
+@media (max-width: 1250px) {
+
+  .header__burger{
+    display: flex;
+  }
+
+  .header__logo-link{
+    margin: 0 auto;
+  }
+  .hero__tittle{
+    font-size: 60px;
+  }
+  .hero__text{
+    font-size: 20px;
+  }
+  .hero__btn{
+    margin-bottom: 130px;
+  }
+  .hero__card{
+    background-size: cover;
+    max-width: 924px;
+    min-height: 668px;
+  }
+
+  .about__list{
+    display: block;
+  }
+
+  .about-item--big {
+    max-width: 924px;
+    min-height: 640px;
+    margin-right: 0;
+    margin-bottom: 32px;
+  }
+
+
+  .how-card__text {
+    max-width: 437px;
+    min-height: 576px;
+    margin-bottom: 45px;
+  }
+
+  .how-card__left {
+    margin-right: 50px;
+  }
+
+  .how-card__right img{
+    max-width: 437px;
+    min-height: 689px;
+  }
+
+  .footer__therd-column{
+    display: none;
+  }
+
+  .header__burger-btn {
+    display: block;
+  }
+
+
+
+/*burger*/
+
+  .header__burger-btn {
+    display: block;
+  }
+  .menu {
+      position: absolute;
+      left: -420px;
+      top: 0;
+      width: 420px;
+      height: 808px;
+      background-color: var(--white);
+      padding: 170px 20px 20px 50px;
+      transition: transform .5s;
+      box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.1);
+      border-radius: 0px 0px 32px 32px;
+  }
+  .menu__list {
+      display: block;
+  }
+  .menu__link {
+      color: var(--black1);
+      font-size: 21px;
+      display: block;
+      padding: 30px 0;
+  }
+  .header.open .menu {
+      transform: translateX(100%);
+  }
+
+}
+
+
+@media (max-width:992px) {
+
+  .hero__card{
+    background-size: cover;
+    max-width: 668px;
+    min-height: 662px;
+    padding-right: 40px;
+  }
+
+  .hero__tittle{
+    font-size: 50px;
+  }
+  .hero__text{
+    font-size: 18px;
+    margin-bottom: 60px;
+  }
+
+  .hero__btn{
+    min-width: 202px;
+    min-height: 28px;
+    font-size: 23px;
+  }
+
+  .about-item--big {
+    max-width: 668px;
+    min-height: 650px;
+  }
+
+  .about-item--inner{
+    padding: 34px 40px;
+  }
+
+  .about-item--small{
+    padding-top: 35px;
+    padding-right: 46px;
+    padding-bottom: 35px;
+    padding-left: 200px;
+  }
+  .about-item--bg1 {
+    background-size: 114px 90px;
+  }
+  .about-item--bg2 {
+    background-size: 114px 90px;
+  }
+
+  .how-card{
+    flex-direction: column-reverse;
+  }
+
+  .how-list{
+    justify-content: space-between;
+  }
+  .how-card__right{
+    margin-bottom: 38px;
+  }
+
+  .how-card__left{
+    margin-right: 0px;
+  }
+
+  .how-card__right img {
+    max-width: 668px;
+    min-height: 284px;
+  }
+  .how-card__text{
+    max-width: none;
+    min-height: auto;
+  }
+  .how-list__item{
+    margin-right: 0px;
+  }
+
+  .footer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .footer__nav{
+    display: none;
+  }
+  .footer__container {
+    flex-direction: column-reverse;
+  }
+
+  .footer__second-column{
+    margin-bottom: 50px;
+  }
+
+  .footer__logo-pic{
+    margin-bottom: 16px;
+  }
+}
+
+
+@media (max-width:540px){
+  .container{
+    padding: 0 15px;
+  }
+  .header__container{
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 17px;
+  }
+
+  .header__logo-pic{
+    min-height: 35px;
+    max-width: 110px;
+  }
+
+  .about-item--small{
+    max-height: 235px;
+    padding-top: 35px;
+    padding-right: 46px;
+    padding-bottom: 35px;
+    padding-left: 200px;
+  }
+  .header__container {
+    min-height: 69px;
+    padding-left: 15px;
+    padding-bottom: 23px;
+  }
+
+  .hero{
+    margin-bottom: 60px;
+  }
+
+  .hero__card{
+    max-width: 290px;
+    min-height: 308px;
+    background-size: cover;
+    padding: 0;
+    padding-top: 60px;
+  }
+  .hero__tittle{
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    min-height: 49px;
+    max-width: none;
+    margin-bottom: 6px;
+  }
+  .hero__text{
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    margin-bottom: 60px;
+    max-width: none;
+    min-height: none;
+    margin-bottom: 32px;
+  }
+
+  .hero__btn{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    min-width: 162px;
+    min-height: 41px;
+    font-size: 12px;
+    line-height: 15px;
+    padding: 13px 28px;
+    margin-bottom: 0;
+    border-radius: 8px;
+  }
+
+  .about__tittle{
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 24px;
+    line-height: 29px;
+  }
+  .about__text{
+    font-size: 14px;
+    line-height: 28px;
+    margin-bottom: 14px;
+  }
+  .about-item--big {
+    display: block;
+    background: transparent;
+    min-height: fit-content;
+  }
+
+  .about-item--for_mob{
+    max-width: 290px;
+    min-height: 200px;
+    background-image: url(../img/about-card-bckg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+    margin-right: 32px;
+    flex-basis: 50%;
+    background-position: center;
+    margin-bottom: 8px;
+  }
+  .about-item--inner {
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+    padding: 0;
+    align-items: flex-start;
+  }
+  .about-item__text{
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: 400;
+    color: var(--black1);
+    margin-bottom: 12px;
+  }
+  .about-item__btn{
+    color: var(--gold);
+    font-size: 12px;
+    line-height: 15px;
+    padding-left: 44px;
+    padding-right: 44px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    position: relative;
+    align-items: flex-start;
+    min-height:  fit-content;
+    border-radius: 8px;
+  }
+
+  .about-item--small{
+    min-width: 290px;
+    max-height: 140px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    border: 0;
+  }
+
+  .about-item__subtitle{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: var(--black1);
+    margin-top: 76px;
+  }
+
+  .about-item__text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: var(--black1);
+  }
+
+  .about-item--bg1 {
+    background-size: 64px;
+    margin-bottom: 96px;
+    background-position: 0px 0px;
+  }
+
+  .about-item--bg2 {
+    background-size: 64px;
+    background-position: 0px 0px;
+  }
+
+  .how__tittle{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 20px;
+  }
+
+  .how-list{
+    margin-bottom: 16px;
+  }
+
+  .how-list__btn{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+
+  .how-card__right {
+      margin-bottom: 16px;
+  }
+
+  .how-card__right img {
+    max-width: 290px;
+    min-height: 160px;
+    border-radius: 16px;
+  }
+
+  .how-card__title{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color: black;
+  }
+  .how-card__text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    margin-bottom: 25px;
+  }
+
+  .how-card__btn--more{
+    padding: 12px 44px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    min-height: fit-content;
+    min-width: auto;
+    margin-right: 10px;
+    border: 1px solid;
+    border-radius: 8px;
+  }
+
+  .how-card__btn--contract{
+    padding: 12px 32px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    min-height: auto;
+    min-width: auto;
+    border: 1px solid;
+    border-radius: 8px;
+  }
+
+  .how{
+    margin-bottom: 60px;
+  }
+
+  .faq{
+    margin-bottom: 60px;
+  }
+  .faq__tittle {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 16px;
+  }
+
+  .faq-items__tittle{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0;
+  }
+  .faq__item svg{
+    width: 30px;
+    height: 30px;
+  }
+  .faq__item{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 27px;
+  }
+  .footer{
+    padding-top: 33px;
+    padding-bottom: 31px;
+  }
+  .footer__tittle{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+  }
+  .footer__send {
+    max-width: 290px;
+  }
+
+  .label{
+    max-height: 290px;
+  }
+
+  .footer__send{
+    max-height: none;
+  }
+
+  .footer__second-column{
+    max-width: 290px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid var(--gery1);
+  }
+  .form__down{
+    flex-direction: column;
+  }
+  .footer__btn{
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    padding: 12px 28px;
+    margin: 0;
+    max-width: max-content;
+    border-radius: 8px;
+    margin: 0 auto;
+    display: block;
+
+  }
+
+  .footer__send{
+    width: 100%;
+  }
+
+  .footer__ferst-colum{
+    margin: 0 auto;
+  }
+
+  .media__list {
+    justify-content: center;
+  }
+
+}
+
